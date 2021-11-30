@@ -1,0 +1,19 @@
+.communities_container {
+  padding: 30px 0;
+  background-color: #2e3038;
+}
+.non_mobile_header {
+  display: block;
+}
+.mobile_header {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .non_mobile_header {
+    display: none;
+  }
+  .mobile_header {
+    display: block;
+  }
+}
